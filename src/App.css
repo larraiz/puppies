@@ -12,10 +12,24 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.image-viewer{
+  height: 250px;
+  width: auto;
+}
+.col50{
+  width: 50%;
+  margin: 0 auto;
+  float: left;
+}
+.puppy-container-image{
+   margin: 10px 0;
+}
+.puppy:hover{
+  color:#FF9472;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +37,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.body{
+  min-height: 500px;
+}
 .App-link {
   color: #61dafb;
 }
